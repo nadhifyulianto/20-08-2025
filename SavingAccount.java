@@ -3,6 +3,10 @@ public class SavingAccount {
     public double interestRate;
     public String name;
 
+    public void deposit (int x) {
+        balance += x;
+    }
+
     public void displayCustomer() {
         System.out.println("Customer: " + name);
         System.out.println("Balance: " + balance);
